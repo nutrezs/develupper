@@ -2,7 +2,7 @@
 <div v-if="error">Failed! Error occured: {{ error.message}}</div> <!-- s'il n'y a pas de data , le message d'erreur apparait-->
     <div v-else-if="data">  <!--si il y'a des data, elles seront affichées entierement avec la balise "pre" et sera inscrit loading pour le delai de chargement-->
         Data loaded:
-        <pre>{{ data }}</pre> 
+        <pre class="text-white">{{ data }}</pre> 
     </div>
     <div v-else>Loading...</div> 
 </template>
